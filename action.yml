@@ -1,0 +1,8 @@
+name: "Autobump"
+description: "Automatically publish new major versions of packages on merge"
+outputs:
+  version:
+    description: "The version that was deployed"
+runs:
+  using: "docker"
+  image: "Dockerfile"
